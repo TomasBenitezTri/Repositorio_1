@@ -32,12 +32,9 @@ switch($_GET['boleto']){
 } 
 
 ?>
-
-
 <div clase="resultado_boletos">
     <h2> <?php echo $boleto; ?> </h2>
     <img src="<?php echo $img; ?>">
 </div>
-
-
 </section>
+<?php include('footer.php');?>

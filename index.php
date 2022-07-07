@@ -5,6 +5,8 @@
     <input class="boton" type="submit" value="Evaluar" name="botonedad"/>
 </form>
 
+<?php $respuesta1= "Apurate que las entradas se están agotando!!!";  ?>
+
 <?php
 if (isset($_GET['botonedad'])){
     if($_GET['edad'] < 18 ){
@@ -13,11 +15,10 @@ if (isset($_GET['botonedad'])){
     }else{
         $respuesta1 = "Pase a la sección de tickets 
         para poder comprar su boleto";
-}}else{
-    $respuesta1= "Apurate que las entradas se están agotando!!!";
-}
-?>
+}}
+?> 
 
-<div clase="edades">
-    <h2> <?php echo $respuesta1; ?> </h2>
+<div>
+    <h2 class="h2_index"> <?php echo $respuesta1; ?> </h2>
 </div>
+<?php include('footer.php');?>

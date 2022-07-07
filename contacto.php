@@ -10,8 +10,8 @@ $correo_form . "\r\n" . "Mensaje: " . $mensaje_form;
 
 mail("tomasbenitezc13@gmail.com", "Mensaje enviado desde mi sitio web", $cuerpo_mail);
 ?>
+
 <script>
-
 window.location="consulta.php";
-
 </script>
+

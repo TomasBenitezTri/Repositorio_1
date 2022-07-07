@@ -7,4 +7,6 @@ include('header.php')
     de TEG Pty Ltd con sede en Rosario, tiene
     operaciones con venta de boletos para eventos 
     deportivos y de entretenimiento tanto en 
-    Argentina  como en Uruguay.</h2>
+    Argentina  como en Uruguay.
+</h2>
+<?php include('footer.php');?>
