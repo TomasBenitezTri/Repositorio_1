@@ -230,15 +230,15 @@ footer {
         font-size: 25px;
       }
     .header_a {
-        font-size: 15px;
+        font-size: 22px;
         color: rgb(82, 88, 68);
     }
     h2{
-        font-size: 15px;
+        font-size: 18px;
         font-weight: lighter;
     }
     .div_footer{
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 @media only screen and (max-width: 850px) {
