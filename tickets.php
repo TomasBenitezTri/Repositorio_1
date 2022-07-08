@@ -37,4 +37,5 @@ switch($_GET['boleto']){
     <img src="<?php echo $img; ?>">
 </div>
 </section>
+
 <?php include('footer.php');?>

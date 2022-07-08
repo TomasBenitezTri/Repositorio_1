@@ -17,6 +17,7 @@ include('header.php')
     <input type="submit"value="Enviar"class="boton">
 </form>
 </div>
+
 <?php include('footer.php');?>
 </body>
 </html>
